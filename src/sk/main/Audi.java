@@ -4,7 +4,7 @@ public class Audi implements Car {
 	private String color;
 	
 	public Audi(String color){
-		System.out.println(color);
+		this.color = color;
 	}
 	
 	public Audi(){
